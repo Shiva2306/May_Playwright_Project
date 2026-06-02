@@ -5,7 +5,7 @@ import { LoginPage } from '../pages/LoginPage';
 import { TestConfig } from '../test.config';
 import '../hooks/commonHooks'
 
-test('TC_002_LoginTest', async ({ page }) => {
+test('TC_002_LoginTest @sanity', async ({ page }) => {
 
     let hp = new HomePage(page);
     await hp.clickonmyaccount();

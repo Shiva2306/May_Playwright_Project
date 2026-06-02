@@ -8,7 +8,7 @@ import '../hooks/commonHooks'
 
 
 
-test('TC_001_Registration test', async ({ page }) => {
+test('TC_001_Registration test @sanity', async ({ page }) => {
 
 
     let hp = new HomePage(page);

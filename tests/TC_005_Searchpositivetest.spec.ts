@@ -4,7 +4,7 @@ import { HomePage } from '../pages/HomePage';
 import { SearchPage } from '../pages/SearchPage';
 import { TestConfig } from '../test.config';
 
-test('TC_004_SearchProduct_Positive @sanity', async ({ page }) => {
+test('TC_004_SearchProduct_Positive @regression', async ({ page }) => {
 
     await page.goto(TestConfig.appUrl);
 
